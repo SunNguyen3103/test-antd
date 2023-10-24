@@ -1,5 +1,6 @@
 import { Button, Checkbox, Form, Input } from 'antd';
 import './App.css'
+import TableTest from './TableTest';
 const onFinish = (values: any) => {
   console.log('Success:', values);
 };
@@ -58,7 +59,7 @@ function App() {
       </Button>
     </Form.Item>
   </Form>
-
+<TableTest/>
     </>
   )
 }
